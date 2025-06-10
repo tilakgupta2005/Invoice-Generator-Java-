@@ -23,5 +23,17 @@ CREATE TABLE IF NOT EXISTS transaction_history (
   grand_total DECIMAL(10,2)
 );
 
+INSERT INTO items (name, cost_price, selling_price) VALUES
+('Veg Sandwich', 20.00, 40.00),
+('Cold Coffee', 25.00, 60.00),
+('Paneer Roll', 30.00, 70.00),
+('Samosa', 5.00, 15.00),
+('Choco Lava Cake', 18.00, 45.00),
+('Aloo Tikki Burger', 22.00, 50.00),
+('Masala Dosa', 30.00, 65.00),
+('Veg Biryani', 40.00, 90.00),
+('Fruit Juice', 15.00, 35.00),
+('Fried Rice', 28.00, 60.00);
+
 select *FROM items;
 select *FROM transaction_history;
